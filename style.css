@@ -1,0 +1,50 @@
+body{background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png');}
+
+.container{text-align: center;}
+
+#heading{color: white;
+         font-family: 'Pacifico', monospace;
+         font-size: 3em;
+         padding: 2em;
+         }
+
+button#done.form-control, input#delete.form-control{border-radius: 0;
+                                                    font-weight: bold;}
+
+
+input#delete.form-control.pull-right{width: 8em;
+                                     position: relative;
+                                     top: -5px;
+}
+
+@media only screen and (max-width:768px){
+            input#textField.form-control{margin: 1em auto;}
+}
+
+
+@media only screen and (min-width: 769px){
+            input#textField.form-control{width: 35em;}
+
+  
+}
+
+ 
+input#textField.form-control{border-radius: 0;
+                             }
+
+#tasktest, button, form{display: inline;}
+
+#taskText{color: block;
+          margin-left: 1em;}
+
+#task{width: 65%;
+      background-color: #272726;
+      box-shadow: 0 0 2px 2px whitesmoke;
+      margin: 2em auto;
+      padding: 1em;
+      text-align: left;
+      color: white;}
+
+.strike{text-decoration: line-through;}
+
+#total, #completed, #pending, .fg{color: white;}
